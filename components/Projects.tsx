@@ -13,7 +13,7 @@ export default function Projects() {
         <div className="flex flex-wrap items-end justify-between gap-6">
           <SectionHeader
             title="Featured projects"
-            description="Six projects from raw data to finished report. Each has its own page with the objective, process, findings, and screenshots."
+            description="Nine projects from raw data to finished report. Each has its own page with the objective, process, findings, and screenshots."
           />
           <Link
             href="/projects"
