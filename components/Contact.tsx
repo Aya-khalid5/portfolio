@@ -7,7 +7,6 @@ const details = [
   { label: "Email", value: SITE.email, href: `mailto:${SITE.email}` },
   { label: "LinkedIn", value: "linkedin.com/in/aya-khaled5", href: SITE.linkedin },
   { label: "GitHub", value: "github.com/Aya-khalid5", href: SITE.github },
-  { label: "Portfolio", value: "portfolio-aya-khaled.vercel.app", href: SITE.url },
 ];
 
 export default function Contact() {
