@@ -18,14 +18,13 @@ export default function Education() {
           </p>
           <dl className="mt-5 flex flex-wrap gap-x-8 gap-y-2 border-t border-border pt-5 text-sm text-ink-soft">
             <div>
-              <dt className="inline font-medium text-ink">
-                Expected graduation:{" "}
-              </dt>
-              <dd className="inline">2027</dd>
+              <dt className="inline font-medium text-orange-500">GPA: </dt>
+              <dd className="inline text-orange-500">3.72 / 4.0</dd>
             </div>
-            <div>
-              <dt className="inline font-medium text-ink">GPA: </dt>
-              <dd className="inline">3.72 / 4.0</dd>
+             <div>
+              <dt className="inline font-medium text-orange-500">
+              Excellent:{" "}
+              </dt>
             </div>
           </dl>
         </div>
