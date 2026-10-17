@@ -26,7 +26,7 @@ export default function Hero() {
             aria-label="Core tools"
             className="mt-5 flex flex-wrap gap-2"
           >
-            {["Excel", "SQL", "Power BI", "Python"].map((tool) => (
+            {["Excel", "SQL", "Power BI", "Python","Tableau"].map((tool) => (
               <li key={tool}>
                 <Badge tone="solid">{tool}</Badge>
               </li>
