@@ -11,16 +11,6 @@ export interface ExperienceEntry {
 
 export const experience: ExperienceEntry[] = [
   {
-    kind: "Community",
-    title: "Technical Data Analysis Member",
-    organization: "SIC Community — Benha University",
-    details: [
-      "Supported students in implementing data analysis tasks correctly and applying technical concepts in practice.",
-      "Explained selected data analysis concepts and helped students understand the practical steps involved.",
-      "Assisted community members in troubleshooting implementation issues and improving their understanding of analytical tools.",
-    ],
-  },
-  {
     kind: "Training",
     title: "Advanced Data Analytics (Summer Training)",
     organization: "National Telecommunication Institute (NTI) / ITIDA",
@@ -38,4 +28,15 @@ export const experience: ExperienceEntry[] = [
       "Dashboard Development",
     ],
   },
+   {
+    kind: "Community",
+    title: "Technical Data Analysis Member",
+    organization: "SIC Community — Benha University",
+    date: "June – September 2025",
+    details: [
+      "Supported students in implementing data analysis tasks correctly and applying technical concepts in practice.",
+      "Explained selected data analysis concepts and helped students understand the practical steps involved.",
+      "Assisted community members in troubleshooting implementation issues and improving their understanding of analytical tools.",
+    ],
+  }
 ];
