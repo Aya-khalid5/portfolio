@@ -7,6 +7,7 @@ const details = [
   { label: "Email", value: SITE.email, href: `mailto:${SITE.email}` },
   { label: "LinkedIn", value: "linkedin.com/in/aya-khaled5", href: SITE.linkedin },
   { label: "GitHub", value: "github.com/Aya-khalid5", href: SITE.github },
+  { label: "CV", value: "View CV", href: "https://drive.google.com/file/d/1C3WdV2DDspCvBR4Uus_PP-_qAmn5MZiw/view?usp=sharing" },
 ];
 
 export default function Contact() {
